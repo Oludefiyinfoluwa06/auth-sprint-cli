@@ -1,9 +1,15 @@
 {
-  "name": "auth-boilerplate-cli",
+  "name": "auth-sprint",
   "version": "1.0.0",
   "description": "This is a CLI-based NPM package to scaffold authentication boilerplate for multiple frameworks",
   "main": "index.js",
+  "bin": {
+    "auth-sprint": "./index.js"
+  },
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
