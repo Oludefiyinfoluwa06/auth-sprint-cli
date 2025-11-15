@@ -1,28 +1,42 @@
 {
-  "name": "auth-boilerplate-cli",
-  "version": "1.0.0",
+  "name": "auth-sprint",
+  "version": "0.0.1",
   "description": "This is a CLI-based NPM package to scaffold authentication boilerplate for multiple frameworks",
   "main": "index.js",
+  "bin": {
+    "auth-sprint": "./index.js"
+  },
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "start": "node index.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Oludefiyinfoluwa06/auth-boilerplate-cli.git"
+    "url": "git+https://github.com/Oludefiyinfoluwa06/auth-sprint-cli.git"
   },
   "keywords": [
     "auth-scaffold",
     "authentication",
     "node-cli",
     "npm-package",
-    "express-auth",
-    "nest-auth"
+    "express-auth"
   ],
   "author": "Olude Fiyinfoluwa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Oludefiyinfoluwa06/auth-boilerplate-cli/issues"
+    "url": "https://github.com/Oludefiyinfoluwa06/auth-sprint-cli/issues"
   },
-  "homepage": "https://github.com/Oludefiyinfoluwa06/auth-boilerplate-cli#readme"
+  "homepage": "https://github.com/Oludefiyinfoluwa06/auth-sprint-cli#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "inquirer": "^12.8.1",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }
