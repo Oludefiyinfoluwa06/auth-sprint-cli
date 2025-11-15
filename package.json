@@ -1,6 +1,6 @@
 {
   "name": "auth-sprint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a CLI-based NPM package to scaffold authentication boilerplate for multiple frameworks",
   "main": "index.js",
   "bin": {
