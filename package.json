@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Oludefiyinfoluwa06/auth-boilerplate-cli.git"
+    "url": "git+https://github.com/Oludefiyinfoluwa06/auth-sprint-cli.git"
   },
   "keywords": [
     "auth-scaffold",
@@ -27,9 +27,9 @@
   "author": "Olude Fiyinfoluwa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Oludefiyinfoluwa06/auth-boilerplate-cli/issues"
+    "url": "https://github.com/Oludefiyinfoluwa06/auth-sprint-cli/issues"
   },
-  "homepage": "https://github.com/Oludefiyinfoluwa06/auth-boilerplate-cli#readme",
+  "homepage": "https://github.com/Oludefiyinfoluwa06/auth-sprint-cli#readme",
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^14.0.0",
